@@ -1,4 +1,3 @@
 # MIPS_Processor
 MIPS Processor Sim
-
-File con
+Simulation of a 32 bit MIPS processor, RISC, in VHDL. 
