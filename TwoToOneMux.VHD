@@ -13,11 +13,11 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity TwoToOneMux is
   GENERIC(n : integer := 32);
-  port(
+  Port(
         muxy1    : in std_logic_vector(n-1 downto 0);
         muxy2    : in std_logic_vector(n-1 downto 0);
         muxy_selector : in std_logic;
-        output     : out std_logic_vector(n - 1 downto 0) );
+        output     : out std_logic_vector(n-1 downto 0) );
 end TwoToOneMux;
 
 architecture Behavioral of Mux is
